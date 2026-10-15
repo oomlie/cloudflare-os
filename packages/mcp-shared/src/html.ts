@@ -30,29 +30,32 @@ export const PAGE_STYLE = `
     color-scheme: light dark;
     --font: "FT Kunst Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             "Helvetica Neue", sans-serif;
-    --base: #fcfcfb;
-    --control: #ffffff;
-    --line: #e8e7e4;
-    --text: #1c1a18;
-    --strong: #100f0d;
-    --subtle: oklch(52% 0.006 60);
-    --brand: #ff4801;
-    --danger: oklch(63.7% 0.237 25.331);
-    /* Kumo's primary button is "contrast": near-black in light mode, the accent in dark. */
-    --contrast: #14110f;
-    --on-contrast: #ffffff;
+    /* Catppuccin Latte */
+    --base: #eff1f5;
+    --control: #eff1f5;
+    --line: #ccd0da;
+    --text: #4c4f69;
+    --strong: #3d3f57;
+    --subtle: #6c6f85;
+    --brand: #8839ef;
+    --danger: #d20f39;
+    /* Kumo's primary button is "contrast": text-colored in light mode, the accent in dark. */
+    --contrast: #4c4f69;
+    --on-contrast: #eff1f5;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --base: oklch(0.115 0.012 285);
-      --control: oklch(0.155 0.011 285);
-      --line: oklch(0.34 0.022 285);
-      --text: oklch(0.92 0.01 285);
-      --strong: oklch(0.92 0.01 285);
-      --subtle: oklch(0.66 0.02 285);
-      --brand: #b84e00;
-      --danger: oklch(70.4% 0.191 22.216);
-      --contrast: #b84e00;
+      /* Catppuccin Mocha */
+      --base: #1e1e2e;
+      --control: #181825;
+      --line: #45475a;
+      --text: #cdd6f4;
+      --strong: #cdd6f4;
+      --subtle: #a6adc8;
+      --brand: #cba6f7;
+      --danger: #f38ba8;
+      --contrast: #cba6f7;
+      --on-contrast: #11111b;
     }
   }
 
